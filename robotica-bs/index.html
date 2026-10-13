@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotic Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Encabezado -->
+  <header class="bg-primary text-white text-center p-5">
+    <nav class="nav justify-content-center mb-4">
+      <a class="nav-link text-white" href="#acerca-de">Acerca de</a>
+      <a class="nav-link text-white" href="#como-ayudar">Cómo ayudar</a>
+      <a class="nav-link text-white" href="#testimonios">Testimonios</a>
+      <a class="nav-link text-white" href="#galeria">Galería</a>
+      <a class="nav-link text-white" href="suscripcion.html">Suscripción</a>
+    </nav>
+    <h1>Bienvenidos a Robotic Center</h1>
+    <p>Nuestra misión es llevar la robótica y la programación a cada joven de Puerto Rico, sin costo.</p>
+  </header>
+
+  <!-- Acerca de nosotros -->
+  <section id="acerca-de" class="text-center p-5">
+    <div class="container">
+      <h2>Acerca de Nosotros</h2>
+      <p>
+        Robotic Center es una organización sin fines de lucro fundada en 2026 en Camuy. Ofrecemos talleres
+        gratuitos de robótica, electrónica y programación para estudiantes de 10 a 18 años. Nuestros equipos
+        participan en competencias locales y han formado a más de 200 jóvenes.
+      </p>
+    </div>
+  </section>
+
+  <!-- Cómo puedes ayudar -->
+  <section id="como-ayudar" class="bg-light text-center p-5">
+    <div class="container">
+      <h2>Cómo Puedes Ayudar</h2>
+      <p>
+        Puedes ser ayudante o mentor en un taller si tienes experiencia, donar kits de robótica, computadoras
+        o baterías usadas en buen estado, o ayudarnos a difundir el programa en diferentes escuelas. Cada
+        aporte convierte la curiosidad de un joven en un proyecto real.
+      </p>
+    </div>
+  </section>
+
+  <!-- Testimonios 3 en fila  -->
+  <section id="testimonios" class="text-center p-5">
+    <div class="container">
+      <h2>Lo que dicen nuestros participantes</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <p>"Nunca había programado. En dos meses mi robot ya seguía una línea por sí solo."</p>
+          <p>— Sofía Rivera, 14 años</p>
+        </div>
+        <div class="col-md-4">
+          <p>"Me alegra que mi hijo aprenda tecnología en un espacio seguro y gratuito."</p>
+          <p>— Carmen Torres, madre</p>
+        </div>
+        <div class="col-md-4">
+          <p>"Ser mentor me recordó por qué estudié robótica. Los estudiantes son brillantes."</p>
+          <p>— Luis Colón, mentor voluntario</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Imágenes 3 en fila -->
+  <section id="galeria" class="bg-light text-center p-5">
+    <div class="container">
+      <h2>Nuestros proyectos</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="ratio ratio-4x3">
+            <img src="robot1.webp" class="object-fit-cover" alt="Estudiantes armando un robot">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-4x3">
+            <img src="robot2.jpg" class="object-fit-cover" alt="Robot con sensor ultrasónico">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-4x3">
+            <img src="robot3.jpg" class="object-fit-cover" alt="Robot de cuatro ruedas">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Suscripción -->
+  <section class="text-center p-5">
+    <div class="container">
+      <h2>Suscríbete a nuestro Taller</h2>
+      <p>Recibe las fechas de los próximos talleres y competencias.</p>
+
+      <form class="d-none d-md-block" action="#" method="post">
+        <div class="row">
+          <div class="col-md-5">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+          <div class="col-md-5">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" class="form-control" id="correo" name="correo" required>
+          </div>
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-primary mt-4">Enviar</button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Enlace botón -->
+      <a href="suscripcion.html" class="btn btn-primary d-md-none">Ir al formulario de suscripción</a>
+    </div>
+  </section>
+
+  <!-- footer-->
+  <footer class="bg-dark text-white text-center p-4">
+    <p class="mb-0">Contacto: info@roboticcenter.org | (787) 555-5555 | Camuy, Puerto Rico</p>
+  </footer>
+
+</body>
+
+</html>
